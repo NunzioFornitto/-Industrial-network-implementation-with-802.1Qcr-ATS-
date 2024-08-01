@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/elaborato2024 -n .:../src $*
+# for shared lib, use: opp_run -l ../src/elaborato2024 -n .:../src $*
